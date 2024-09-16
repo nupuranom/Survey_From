@@ -1,0 +1,92 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light teal background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    flex-direction: column; /* Allows the heading to be centered above the form */
+}
+
+/* Form Header */
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Container */
+#survey-form {
+    background-color: #ffeb3b; /* Bright yellow form background */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    border: 3px solid #007bff; /* Blue border */
+}
+
+/* Form Heading */
+h1 {
+    color: #007bff; /* Blue heading */
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Form Elements */
+label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+/* Focus Effect */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
